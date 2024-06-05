@@ -6,6 +6,8 @@ body {
   height: 100vh;
 }
 
+/*main page styles*/
+
 a {
   color: white;
 }
@@ -169,3 +171,6 @@ button{
 .project-tile a {
   text-decoration: none;
 }
+
+/*about page styles*/
+
