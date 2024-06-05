@@ -233,3 +233,86 @@ button{
   border-color: rgb(175, 28, 28);
 }
 
+/*contact page styles*/
+
+#text {
+  margin-top: 10%;
+  margin-left: 60px;
+  animation: slide-in-left 3s forwards;
+}
+
+#line {
+  border: 2px dotted hsla(0, 0%, 100%, 0.2);
+  width: 90%;
+  margin: 10px 0 20px 60px;
+  animation: slide-in-left 3s forwards 0.5s;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.input-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+#email, #name {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid hsla(0, 4%, 49%, 0.868);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  animation: slide-in-top 3s forwards;
+  height: 30px;
+}
+
+#new {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid hsla(0, 4%, 49%, 0.868);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  animation: slide-in-right 3s forwards 0.5s;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 20%;
+  border: 1px solid hsla(0, 4%, 49%, 0.868);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  animation: slide-in-right 3s forwards 1s;
+}
+
+.submit:hover {
+  border-color:  #ab3c73;
+}
+
+::placeholder {
+  color: azure;
+  opacity: 1;
+}
