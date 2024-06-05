@@ -6,7 +6,7 @@ body {
   height: 100vh;
 }
 
- /*main page styles*/ 
+/* main page styles */ 
 a {
   color: white;
 }
@@ -172,11 +172,11 @@ button {
 
 button:hover {
   background-color: #ab3c73;
-  transform: translateY(5px); 
+  transform: translateY(5px);
   transition: transform 0.3s ease; 
 }
 
- /*about page styles*/ 
+/* about page styles */
 .profile-container { 
   display: flex;
   justify-content: center;
@@ -236,7 +236,7 @@ button:hover {
   border-color: rgb(175, 28, 28);
 }
 
- /*contact page styles*/ 
+/* contact page styles */
 #text {
   margin-top: 10%;
   margin-left: 60px;
@@ -275,14 +275,13 @@ form {
   gap: 20px;
 }
 
-#email, #name {
-  flex: 1;
+#email {
   padding: 10px;
-  border: 1px solid hsla(0, 4%, 49%, 0.868);
-  border-radius: 20px;
-  background-color: transparent;
-  color: white;
-  animation: slide-in-top 3s forwards;
+  height: 30px;
+}
+
+#name {
+  padding: 10px;
   height: 30px;
 }
 
@@ -311,7 +310,7 @@ form {
 }
 
 .submit:hover {
-  border-color:  #ab3c73;
+  border-color: #ab3c73;
 }
 
 ::placeholder {
@@ -319,10 +318,10 @@ form {
   opacity: 1;
 }
 
- /*projects file styles*/ 
+/* projects file styles */
 #text2 {
   margin-top: 150px;
-  margin-left: 60px ;
+  margin-left: 60px;
   margin-bottom: 0;
   animation: slide-in-left 3s forwards;
   font-size: 35px;
@@ -442,7 +441,7 @@ form {
   }
 }
 
- /*Media Queries*/ 
+/* Media Queries */
 @media (max-width: 390px) {
   .welcome-section-hi {
     font-size: 30px;
@@ -478,7 +477,11 @@ form {
     width: 90%;
   }
 
-  #email,#name {
+  #email {
+    width: 90%;
+  }
+
+  #name {
     width: 90%;
   }
 
@@ -532,7 +535,11 @@ form {
     width: 90%;
   }
 
-  #email,#name {
+  #email {
+    width: 90%;
+  }
+
+  #name {
     width: 90%;
   }
 
@@ -581,7 +588,11 @@ form {
     width: 90%;
   }
 
-  #email,#name {
+  #email {
+    width: 90%;
+  }
+
+  #name {
     width: 90%;
   }
 
@@ -600,7 +611,7 @@ form {
     overflow: auto;
   }
   .welcome-section-hi {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .welcome-section-text {
@@ -633,7 +644,11 @@ form {
     width: 80%;
   }
 
-  #email,#name {
+  #email {
+    width: 80%;
+  }
+
+  #name {
     width: 80%;
   }
 
@@ -709,11 +724,6 @@ form {
     max-width: none;
   }
 
-  #email,#name {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
   #new {
     height: auto;
     margin-top: 10px;
@@ -762,7 +772,12 @@ form {
     max-width: none;
   }
 
-  #email,#name {
+  #email {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #name {
     width: 100%;
     margin-bottom: 10px;
   }
@@ -783,7 +798,7 @@ form {
     overflow: auto;
   }
   .welcome-section-hi {
-    font-size: 35px;
+    font-size: 24px;
   }
 
   main {
@@ -799,10 +814,6 @@ form {
     padding: 0;
     bottom: 0;
     z-index: 1000;
-  }
-
-  html,body {
-    overflow-y: hidden;
   }
 
   #navbar a {
