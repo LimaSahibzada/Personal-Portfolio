@@ -94,3 +94,29 @@ main {
   color: #ab3c73;
 }
 
+.welcome-section-text {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  white-space: nowrap; 
+  overflow: hidden;
+  border-right: 3px solid #ab3c73;
+  animation: typeWriter 15s steps(30) infinite;
+}
+
+@keyframes typeWriter {
+  0% {
+    width: 0;
+    border-right: 3px solid #ab3c73;
+  }
+  50% {
+    width: 20%;
+    border-right: 3px solid transparent;
+  }
+  100% {
+    width: 0;
+    border-right: 3px solid #ab3c73;
+  }
+}
+
