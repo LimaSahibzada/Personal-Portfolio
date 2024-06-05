@@ -414,21 +414,6 @@ form {
   }
 }
 
-@keyframes typeWriter {
-  0% {
-    width: 0;
-    border-right: 3px solid #b3678d;
-  }
-  50% {
-    width: 30%;
-    border-right: 3px solid transparent;
-  }
-  100% {
-    width: 0;
-    border-right: 3px solid #ab3c73;
-  }
-}
-
 @keyframes slide-in-left {
   0% {
     transform: translateX(-100%);
