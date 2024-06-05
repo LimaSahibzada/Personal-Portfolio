@@ -174,15 +174,61 @@ button{
 
 /*about page styles*/
 
-#text {
-  margin-top: 10%;
-  margin-left: 60px;
-  animation: slide-in-left 3s forwards;
+.profile-container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 200px;
 }
 
-#line {
-  border: 2px dotted hsla(0, 0%, 100%, 0.2);
-  width: 90%;
-  margin: 10px 0 20px 60px;
+.profile-container img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: relative;
   animation: slide-in-left 3s forwards 0.5s;
+}
+
+.profile-container .profile-details {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 20px;
+  animation: slide-in-right 3s forwards 0.5s;
+}
+
+.profile-container h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ab3c73;
+  font-weight: 23px;
+}
+
+.line2 {
+  border: 2px dotted hsla(0, 0%, 100%, 0.2);
+}
+
+.profile-container p {
+  margin: 10px 0 0;
+  color: #ffffffcc;
+  justify-content: center;
+}
+
+#submit2 {
+  padding: 10px 0;
+  width: 40%;
+  border: 1px solid hsla(0, 4%, 49%, 0.868);
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffffcc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#submit2:hover {
+  border-color: rgb(175, 28, 28);
 }
