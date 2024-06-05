@@ -120,3 +120,52 @@ main {
   }
 }
 
+#profile {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  list-style-type: none;
+  animation: slide-in-left 2s forwards 1s; 
+}
+
+#profile i {
+  margin-right: 20px;
+}
+
+#profile i:hover {
+  color: #ab3c73;
+  transform: translate(-10%, -10%);
+  transition: transform 0.3s ease; 
+}
+
+#projects {
+  margin-top: 30px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: #ab3c73;
+  transform: translateY(5px); 
+  transition: transform 0.3s ease; 
+}
+
+.project-tile {
+  text-decoration: none;
+}
+
+button{
+  height: 40px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 30px;
+  margin-right: 20px;
+  background-color: transparent;
+  margin-top: 20px;
+  animation: slide-in-left 2s forwards 1.5s; 
+}
+
+.project-tile a {
+  text-decoration: none;
+}
