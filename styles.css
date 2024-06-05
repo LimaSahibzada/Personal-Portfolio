@@ -316,3 +316,68 @@ form {
   color: azure;
   opacity: 1;
 }
+
+/*projects file styles*/
+
+#text2 {
+  margin-top: 150px;
+  margin-left: 60px ;
+  margin-bottom: 0;
+  animation: slide-in-left 3s forwards;
+  font-size: 35px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  animation: slide-in-top 3s forwards; 
+}
+
+.project-container a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none; 
+}
+
+.project-container img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s; 
+}
+
+.project-container img:hover {
+  transform: scale(1.10);
+}
+
+.project-container .project-title {
+  content: ""; 
+  position: absolute;
+  bottom: 50px;
+  left: 30%;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+  width: 150px;
+  height: 20px;
+}
+
+.project-container a:hover .project-title {
+  opacity: 1;
+}
+
+
