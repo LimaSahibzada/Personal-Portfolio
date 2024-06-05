@@ -7,7 +7,6 @@ body {
 }
 
 /*main page styles*/
-
 a {
   color: white;
 }
@@ -173,7 +172,6 @@ button{
 }
 
 /*about page styles*/
-
 .profile-container { 
   display: flex;
   justify-content: center;
@@ -234,7 +232,6 @@ button{
 }
 
 /*contact page styles*/
-
 #text {
   margin-top: 10%;
   margin-left: 60px;
@@ -318,7 +315,6 @@ form {
 }
 
 /*projects file styles*/
-
 #text2 {
   margin-top: 150px;
   margin-left: 60px ;
@@ -447,4 +443,387 @@ form {
   }
 }
 
+/*Media Queries*/
+@media (max-width: 390px) {
+  .welcome-section-hi {
+    font-size: 30px;
+  }
 
+  .welcome-section-text {
+    font-size: 14px;
+  }
+
+  #navbar a {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #profile i {
+    font-size: 20px;
+  }
+
+  #text {
+    font-size: 18px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  #email, #name {
+    width: 90%;
+  }
+
+  #new {
+    width: 90%;
+    height: 100px;
+  }
+
+  .submit {
+    width: 90%;
+  }
+
+  .profile-container img{
+    height: 200px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .welcome-section-hi {
+    font-size: 28px;
+  }
+
+  .welcome-section-text {
+    font-size: 14px;
+  }
+
+  #navbar a {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #profile i {
+    font-size: 18px;
+  }
+
+  #text {
+    font-size: 16px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  #email, #name {
+    width: 90%;
+  }
+
+  #new {
+    width: 90%;
+    height: 100px;
+  }
+
+  .submit {
+    width: 90%;
+  }
+}
+
+@media (max-width: 412px) {
+  .welcome-section-hi {
+    font-size: 32px;
+  }
+
+  .welcome-section-text {
+    font-size: 16px;
+  }
+
+  #navbar a {
+    font-size: 22px;
+    padding: 12px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  #profile i {
+    font-size: 22px;
+  }
+
+  #text {
+    font-size: 20px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  #email, #name {
+    width: 90%;
+  }
+
+  #new {
+    width: 90%;
+    height: 120px;
+  }
+
+  .submit {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body{
+    overflow: auto;
+  }
+  .welcome-section-hi {
+    font-size: 40px;
+  }
+
+  .welcome-section-text {
+    font-size: 18px;
+  }
+
+  #navbar a {
+    font-size: 24px;
+    padding: 16px;
+  }
+
+  button {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  #profile i {
+    font-size: 24px;
+  }
+
+  #text {
+    font-size: 22px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  #email, #name {
+    width: 80%;
+  }
+
+  #new {
+    width: 80%;
+    height: 150px;
+  }
+
+  .submit {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    margin-top: 50px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0;
+  }
+
+  #navbar a {
+    padding: 15px 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .icon-container {
+    margin: 10px 0;
+  }
+
+  .icon-text {
+    bottom: -25px;
+    font-size: 14px;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .profile-container img,
+  .profile-container .profile-details {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-container .profile-details {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  #submit2 {
+    width: 60%;
+  }
+
+  #text, #text2 {
+    margin: 20px;
+    font-size: 22px;
+  }
+
+  .form-container {
+    height: auto;
+  }
+
+  form {
+    width: auto;
+    padding: 10px;
+    max-width: none;
+  }
+
+  #email, #name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #new {
+    height: auto;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #navbar a {
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+
+  .icon-container {
+    margin: 10px;
+  }
+
+  #text {
+    margin: 20px;
+    margin-top: 150px;
+    font-size: 22px;
+  }
+
+  #line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-container {
+    height: auto;
+  }
+
+  form {
+    width: auto;
+    padding: 10px;
+    max-width: none;
+  }
+
+  #email, #name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #new {
+    height: auto;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+  }
+}
+
+@media (max-width: 505px) {
+  body{
+    overflow: auto;
+  }
+  .welcome-section-hi {
+    font-size: 35px;
+  }
+
+  main {
+    margin-top: 150px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    bottom: 0;
+    z-index: 1000;
+  }
+
+  html, body {
+    overflow-y: hidden;
+  }
+
+  #navbar a {
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .icon-container {
+    margin: 0;
+  }
+
+  .welcome-section-text {
+    font-size: 16px;
+  }
+
+  #profile i {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
