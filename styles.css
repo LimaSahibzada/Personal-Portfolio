@@ -110,7 +110,8 @@ main {
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 20px;
-  white-space: nowrap;
+  white-space: nowrap; 
+  overflow: hidden;
   border-right: 3px solid #ab3c73;
   animation: typeWriter 15s steps(30) infinite;
 }
@@ -120,9 +121,9 @@ main {
     width: 0;
     border-right: 3px solid #ab3c73;
   }
-
+  
   50% {
-    width: 23%;
+    width: 20%;
     border-right: 3px solid transparent;
   }
 
@@ -236,6 +237,7 @@ button:hover {
 
 #submit2:hover {
   border-color: rgb(175, 28, 28);
+  animation: slide-in-left 3s forwards;
 }
 
 /* contact page styles */
@@ -278,12 +280,24 @@ form {
 }
 
 #email {
+  flex: 1;
   padding: 10px;
+  border: 1px solid hsla(0, 4%, 49%, 0.868);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  animation: slide-in-top 3s forwards;
   height: 30px;
 }
 
 #name {
+  flex: 1;
   padding: 10px;
+  border: 1px solid hsla(0, 4%, 49%, 0.868);
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  animation: slide-in-top 3s forwards;
   height: 30px;
 }
 
@@ -348,7 +362,7 @@ form {
 }
 
 .project-container img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .project-container .project-title {
