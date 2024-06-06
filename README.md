@@ -15,7 +15,7 @@ My inspiration to create my personal portfolio stemmed from a deep passion for w
 
 - Below you can have a view of my page:
 
-![Technical Documentation page]![picof project](https://github.com/LimaSahibzada/Technical-Documentation-page/assets/167701815/21e881df-b52a-4980-85dc-45b27ef28992)
+![Personal Portfolio]![picof project]()
 
 
 
