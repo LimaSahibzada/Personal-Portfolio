@@ -474,7 +474,6 @@ form {
   #navbar {
     flex-direction: row;
     align-items: flex-start;
-    
   }
 
   #navbar a {
@@ -487,7 +486,7 @@ form {
   .icon-container {
     margin: 10px 0;
   }
- 
+
   .profile-container {
     flex-direction: column;
     gap: 20px;
@@ -522,7 +521,6 @@ form {
   #text {
     margin-top: 400px;
     font-size: 3rem;
-
   }
 
   .form-container {
@@ -541,11 +539,11 @@ form {
     height: 50px;
   }
 
-  #new{
+  #new {
     height: 200px;
   }
 
-  .submit{
+  .submit {
     height: 50px;
   }
 
@@ -576,7 +574,7 @@ form {
     margin-left: 90px;
   }
 
-  main{
+  main {
     margin-top: 30%;
   }
 
@@ -612,7 +610,7 @@ form {
     height: 400px;
     margin-left: 10px;
   }
- 
+
   .profile-container h1 {
     font-size: 35px;
   }
@@ -653,7 +651,6 @@ form {
     width: 90%;
     height: auto;
     margin-left: 15px;
-    margin-bottom: 0px;
     margin-top: 40px;
   }
 
