@@ -861,7 +861,6 @@ form {
     flex-direction: column;
     gap: 40px;
     margin-top: 100px;
-
   }
 
   .profile-container img,
@@ -886,19 +885,19 @@ form {
     font-size: 12px;
   }
 
-  main{
+  main {
     margin-top: 200px;
   }
 
-  .welcome-section-hi{
+  .welcome-section-hi {
     font-size: 35px;
   }
 
-  .welcome-section-text{
+  .welcome-section-text {
     font-size: 20px;
   }
 
-    @keyframes typeWriter {
+  @keyframes typeWriter {
     0% {
       width: 0;
       border-right: 3px solid #ab3c73;
@@ -918,7 +917,7 @@ form {
   #navbar a {
     font-size: 24px;
   }
-  
+
   #profile {
     font-size: 20px;
   }
