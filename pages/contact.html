@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal profile</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -17,7 +17,7 @@
     <header id="header">
       <div id="navbar">
         <div class="icon-container">
-          <a id="profile-link" href="index.html"><i class="fa fa-fw fa-home"></i></a>
+          <a id="profile-link" href="../index.html"><i class="fa fa-fw fa-home"></i></a>
           <span class="icon-text">Home</span>
         </div>
         <div class="icon-container">
@@ -30,16 +30,17 @@
         </div>
       </div>
     </header>
-    <div class="profile-container">
-      <section>
-        <img src="aboutme.jpg" alt="a girl working on pc">
-      </section>
-      <section class="profile-details">
-        <h1>Orzala</h1>
-        <hr class="line2">
-        <p>Greetings! I'm Orzala, a passionate MERN stack developer with expertise in HTML, CSS. My journey in the world of web development began with a curiosity to bring ideas to life through code. On my learning journey, I am attending KICK-START program to become a full-stack developer. 🎓 Additionally, I am holding a Bachelor's degree in Computer Science from an American University.</p>
-        <button id="submit2">Download My CV</button>
-      </section>
+    <h1 id="text">Let's<span class="color"> Connect.</span> </h1>
+    <hr id="line">
+    <div class="form-container">
+      <form>
+        <div class="input-row">
+          <input type="email" id="email" placeholder="Email" required>
+          <input type="text" id="name" placeholder="Name" required>
+        </div>
+        <textarea name="text" id="new" placeholder="Message"></textarea>
+        <input type="submit" id="send" class="submit">
+      </form>
     </div>
   </body>
 </html>
