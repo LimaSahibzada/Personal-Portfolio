@@ -641,12 +641,8 @@ form {
 
 @media only screen and (max-width: 430px) {
   body {
-   align-items: center;
-   max-width: auto;
-  }
-
-  #navbar {
-    margin-left: 0px;
+    align-items: center;
+    max-width: auto;
   }
 
   .profile-container {
@@ -713,8 +709,6 @@ form {
   #navbar a {
     font-size: 18px;
     margin-left: 60px;
-    padding-left: 0px;
-    padding-right: 0px;
     padding-top: 10px;
   }
 
@@ -766,7 +760,7 @@ form {
   #text2 {
     margin-top: 8%;
     font-size: 18px;
-    margin-right: 200px ;
+    margin-right: 200px;
   }
 
   .project-container {
