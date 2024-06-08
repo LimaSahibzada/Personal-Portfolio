@@ -640,6 +640,15 @@ form {
 }
 
 @media only screen and (max-width: 430px) {
+  body {
+   align-items: center;
+   max-width: auto;
+  }
+
+  #navbar {
+    margin-left: 0px;
+  }
+
   .profile-container {
     flex-direction: column;
     gap: 20px;
@@ -651,7 +660,7 @@ form {
     width: 90%;
     height: auto;
     margin-left: 15px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .profile-container .profile-details {
@@ -660,7 +669,11 @@ form {
   }
 
   .profile-container h1 {
-    font-size: 24px;
+    font-size: 30px;
+  }
+
+  .profile-container p {
+    font-size: 18px;
   }
 
   #submit2 {
@@ -669,15 +682,15 @@ form {
   }
 
   main {
-    margin-top: 200px;
+    margin-top: 30%;
   }
 
   .welcome-section-hi {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .welcome-section-text {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   @keyframes typeWriter {
@@ -698,26 +711,31 @@ form {
   }
 
   #navbar a {
-    font-size: 24px;
+    font-size: 18px;
+    margin-left: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
   }
 
   #profile {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   #text {
-    margin-top: 40%;
+    margin-top: 30%;
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 24px;
+    margin-bottom: 30px;
   }
 
   #line {
-    width: 70%;
-    margin-left: 50px;
+    width: 60%;
+    margin-left: 60px;
   }
 
   .form-container {
-    height: 30%;
+    height: 50%;
   }
 
   form {
@@ -727,10 +745,12 @@ form {
 
   #email {
     height: 30px;
+    width: 30%;
   }
 
   #name {
     height: 30px;
+    width: 30%;
   }
 
   #new {
@@ -744,18 +764,19 @@ form {
   }
 
   #text2 {
-    margin-top: 10%;
-    font-size: 25px;
+    margin-top: 8%;
+    font-size: 18px;
+    margin-right: 200px ;
   }
 
   .project-container {
     gap: 20px;
     margin-top: 20px;
+    margin-right: 20px;
   }
 
   .project-container img {
     width: 250px;
     height: 150px;
-    object-fit: cover;
   }
 }
