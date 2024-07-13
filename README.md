@@ -15,7 +15,7 @@ My inspiration to create my personal portfolio stemmed from a deep passion for w
 
 - Below you can have a view of my page:
 
-![Personal Portfolio]![picof project]()
+![Personal Portfolio]!(https://github.com/Orzala-2024/Personal-Portfolio/actions/runs/9923443638/job/27413597128)
 
 
 
