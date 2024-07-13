@@ -81,14 +81,14 @@ a {
 .welcome-section-hi {
   font-size: 60px;
   margin-bottom: 0;
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
 .color {
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
   color: transparent;
@@ -202,7 +202,7 @@ button:hover {
 
 h1 {
   background: rgba(0, 0, 0, 0.7);
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -211,10 +211,10 @@ h1 {
 .profile-container h1 {
   margin: 0;
   font-size: 24px;
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
   font-weight: 23px;
 }
 
@@ -289,7 +289,7 @@ form {
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  color: white; 
+  color: white;
   animation: slide-in-left 3s forwards;
   height: 30px;
 }
@@ -311,7 +311,7 @@ form {
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  color: white; 
+  color: white;
   animation: slide-in-right 3s forwards;
   height: 150px;
 }
@@ -324,7 +324,7 @@ form {
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   color: white;
-  background-color: transparent; 
+  background-color: transparent;
   animation: slide-in-right 3s forwards 0.5s;
 }
 
@@ -335,10 +335,10 @@ form {
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
   cursor: pointer;
   animation: slide-in-right 3s forwards 1s;
 }
@@ -363,7 +363,6 @@ form {
   animation: slide-in-left 3s forwards;
 }
 
-
 ::placeholder {
   color: #ab3c73;
   opacity: 1;
@@ -376,10 +375,10 @@ form {
   margin-bottom: 0;
   animation: slide-in-left 3s forwards;
   font-size: 35px;
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
 .project-container {
@@ -411,10 +410,10 @@ form {
   left: 30%;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,7 +432,7 @@ form {
 }
 
 footer {
-  background: linear-gradient ( to right, #391159, #07520b); 
+  background: linear-gradient( to right, #391159, #07520b);
   height: 20%;
   color: black;
 }
