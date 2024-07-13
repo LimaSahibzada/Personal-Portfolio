@@ -9,10 +9,10 @@ body {
 
 /* Main page styles */
 a {
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
 #navbar {
@@ -55,10 +55,10 @@ a {
   right: 50%;
   bottom: -30px;
   transform: translateY(-50%);
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  background-image: linear-gradient(to right, #752ab3, #158b1b);
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
   padding: 5px 5px;
   border-radius: 3px;
   white-space: nowrap;
@@ -91,7 +91,7 @@ a {
   background-image: linear-gradient(to right, #752ab3, #158b1b); 
   -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent; 
+  color: transparent;
 }
 
 .welcome-section-text {
@@ -198,6 +198,14 @@ button:hover {
   font-size: 14px;
   border-radius: 20px;
   animation: slide-in-right 3s forwards 0.5s;
+}
+
+h1 {
+  background: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .profile-container h1 {
@@ -424,16 +432,8 @@ form {
   opacity: 1;
 }
 
-h1 {
-  background: rgba(0, 0, 0, 0.7);
-  background-image: linear-gradient(to right, #752ab3, #158b1b); 
-  -webkit-background-clip: text; /* For Safari */
-  background-clip: text;
-  color: transparent; 
-}
-
 footer {
-  background: linear-gradient( to right, #391159, #07520b); 
+  background: linear-gradient ( to right, #391159, #07520b); 
   height: 20%;
   color: black;
 }
@@ -513,7 +513,7 @@ footer {
 /* Media Queries */
 @media (max-width: 1024px) {
   main {
-    margin-top: 400px;
+    margin-top: 30%;
   }
 
   .welcome-section-hi {
@@ -616,10 +616,6 @@ footer {
 
   footer {
     height: 10%;
-  }
-
-  main {
-    margin-top: 20%;
   }
 }
 
@@ -843,7 +839,7 @@ footer {
     position: fixed;
     top: 5px;
   }
-  
+
   .welcome-section-text {
     font-size: 20px;
     margin-top: 5%;
@@ -852,9 +848,8 @@ footer {
   footer {
     height: 10%;
   }
- 
+
   #copyright {
     padding-top: 5%;
   }
-
 }
