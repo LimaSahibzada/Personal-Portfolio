@@ -9,10 +9,10 @@ body {
 
 /* main page styles */
 a {
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
 }
 
 #navbar {
@@ -55,10 +55,10 @@ a {
   right: 50%;
   bottom: -30px;
   transform: translateY(-50%);
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
   padding: 5px 5px;
   border-radius: 3px;
   white-space: nowrap;
@@ -81,17 +81,17 @@ a {
 .welcome-section-hi {
   font-size: 60px;
   margin-bottom: 0;
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
 }
 
 .color {
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
 }
 
 .welcome-section-text {
@@ -103,10 +103,10 @@ a {
   overflow: hidden;
   border-right: 3px solid #ab3c73;
   animation: typeWriter 15s steps(30) infinite;
-  background-image: linear-gradient(to right, #ab3c73, #0a1930);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ab3c73, #0a1930); /* Define your gradient colors */
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; /* Hide the original text color */
 }
 
 @keyframes typeWriter {
@@ -203,10 +203,10 @@ button:hover {
 .profile-container h1 {
   margin: 0;
   font-size: 24px;
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
   font-weight: 23px;
 }
 
@@ -281,10 +281,10 @@ form {
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
   animation: slide-in-left 3s forwards;
   height: 30px;
 }
@@ -295,48 +295,139 @@ form {
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
+  color: transparent; 
   animation: slide-in-left 3s forwards;
   height: 30px;
 }
 
-#message {
-  flex: 1;
+#new {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
   padding: 10px;
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  background-image: linear-gradient(to right, #752ab3, #158b1b);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
   background-clip: text;
-  color: transparent;
-  animation: slide-in-left 3s forwards;
-  height: 100px;
+  color: transparent; 
+  animation: slide-in-right 3s forwards 0.5s;
 }
 
-button#submit {
+.submit {
+  margin-top: 20px;
   padding: 10px 0;
-  width: 40%;
+  width: 20%;
   border: 1px solid hsla(0, 4%, 49%, 0.868);
   border-radius: 20px;
   background-color: transparent;
-  color: #fffc;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; 
   cursor: pointer;
-  font-size: 14px;
+  animation: slide-in-right 3s forwards 1s;
+}
+
+.submit:hover {
+  border-color: #ab3c73;
+}
+
+::placeholder {
+  color: #ab3c73;
+  opacity: 1;
+}
+
+/* projects file styles */
+#text2 {
+  margin-top: 20%;
+  margin-left: 60px;
+  margin-bottom: 0;
+  animation: slide-in-left 3s forwards;
+  font-size: 35px;
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; 
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
   animation: slide-in-left 3s forwards;
 }
 
-button#submit:hover {
-  border-color: rgb(175, 28, 28);
+.project-container img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s;
 }
 
+.project-container img:hover {
+  transform: scale(1.2);
+}
+
+.project-container .project-title {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  left: 30%;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+  width: 150px;
+  height: 20px;
+}
+
+.project-container a:hover .project-title {
+  opacity: 1;
+}
+
+h1 {
+  background: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to right, #752ab3, #158b1b); 
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; 
+}
+
+footer {
+  background: linear-gradient( to right, #391159, #07520b); 
+  height: 20%;
+  color: black;
+}
+
+#copyright {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Keyframes for animations */
 @keyframes slide-in-left {
   0% {
     transform: translateX(-100%);
-    opacity: 0;
   }
 
   100% {
@@ -348,7 +439,6 @@ button#submit:hover {
 @keyframes slide-in-right {
   0% {
     transform: translateX(100%);
-    opacity: 0;
   }
 
   100% {
@@ -357,6 +447,37 @@ button#submit:hover {
   }
 }
 
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @keyframes slide-in-top {
